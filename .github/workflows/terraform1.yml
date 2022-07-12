@@ -54,7 +54,7 @@ on:
 env:
   export AWS_ACCESS_KEY_ID : "anaccesskey"
   export AWS_SECRET_ACCESS_KEY : "asecretkey"
-  ROOT_PATH: 'Documents/GitHub/vpc/terraform1'
+  ROOT_PATH: 'vpc/terraform1'
 
 
 jobs:
