@@ -52,8 +52,8 @@ on:
   workflow_dispatch: 
 
 env:
-  export AWS_ACCESS_KEY_ID : "anaccesskey"
-  export AWS_SECRET_ACCESS_KEY : "asecretkey"
+  export AWS_ACCESS_KEY_ID : ${{secrets.ACCESS_KEY}}
+  export AWS_SECRET_ACCESS_KEY : ${{secrets.SECRET_KEY}}
   # ROOT_PATH: '/Users/risha/Documents/GitHub/terraform/vpc'
   ROOT_PATH: '${{ github.workspace }}/vpc'
 
